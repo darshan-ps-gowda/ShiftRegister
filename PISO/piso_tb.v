@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module Ush_tb;
+module piso_tb;
 
 reg clk;
 reg reset;
@@ -8,7 +8,7 @@ reg load;
 reg [3:0] data_in;
 wire serial_out;
 
-Ush uut (
+piso uut (
     .clk(clk),
     .reset(reset),
     .load(load),
